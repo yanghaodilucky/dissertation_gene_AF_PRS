@@ -1,0 +1,68 @@
+
+	 Simultaneous Tests for General Linear Hypotheses
+
+Multiple Comparisons of Means: Tukey Contrasts
+
+
+Fit: aov(formula = prs_multi_ancestry ~ ethnicity_group, data = dta_eth)
+
+Linear Hypotheses:
+                                                                                                                          Estimate
+Asian or Asian British - Pakistani, Indian or Bangladeshi - Asian - Chinese == 0                                          -1.67495
+Black African, Black Caribbean or other black background - Asian - Chinese == 0                                           -0.79082
+Mixed ethnicity - Asian - Chinese == 0                                                                                    -1.11203
+White - Asian - Chinese == 0                                                                                              -1.48107
+Black African, Black Caribbean or other black background - Asian or Asian British - Pakistani, Indian or Bangladeshi == 0  0.88413
+Mixed ethnicity - Asian or Asian British - Pakistani, Indian or Bangladeshi == 0                                           0.56292
+White - Asian or Asian British - Pakistani, Indian or Bangladeshi == 0                                                     0.19388
+Mixed ethnicity - Black African, Black Caribbean or other black background == 0                                           -0.32121
+White - Black African, Black Caribbean or other black background == 0                                                     -0.69024
+White - Mixed ethnicity == 0                                                                                              -0.36904
+                                                                                                                          Std. Error
+Asian or Asian British - Pakistani, Indian or Bangladeshi - Asian - Chinese == 0                                             0.39168
+Black African, Black Caribbean or other black background - Asian - Chinese == 0                                              0.41720
+Mixed ethnicity - Asian - Chinese == 0                                                                                       0.42907
+White - Asian - Chinese == 0                                                                                                 0.38601
+Black African, Black Caribbean or other black background - Asian or Asian British - Pakistani, Indian or Bangladeshi == 0    0.18142
+Mixed ethnicity - Asian or Asian British - Pakistani, Indian or Bangladeshi == 0                                             0.20726
+White - Asian or Asian British - Pakistani, Indian or Bangladeshi == 0                                                       0.08865
+Mixed ethnicity - Black African, Black Caribbean or other black background == 0                                              0.25219
+White - Black African, Black Caribbean or other black background == 0                                                        0.16882
+White - Mixed ethnicity == 0                                                                                                 0.19632
+                                                                                                                          t value
+Asian or Asian British - Pakistani, Indian or Bangladeshi - Asian - Chinese == 0                                           -4.276
+Black African, Black Caribbean or other black background - Asian - Chinese == 0                                            -1.896
+Mixed ethnicity - Asian - Chinese == 0                                                                                     -2.592
+White - Asian - Chinese == 0                                                                                               -3.837
+Black African, Black Caribbean or other black background - Asian or Asian British - Pakistani, Indian or Bangladeshi == 0   4.873
+Mixed ethnicity - Asian or Asian British - Pakistani, Indian or Bangladeshi == 0                                            2.716
+White - Asian or Asian British - Pakistani, Indian or Bangladeshi == 0                                                      2.187
+Mixed ethnicity - Black African, Black Caribbean or other black background == 0                                            -1.274
+White - Black African, Black Caribbean or other black background == 0                                                      -4.089
+White - Mixed ethnicity == 0                                                                                               -1.880
+                                                                                                                          Pr(>|t|)
+Asian or Asian British - Pakistani, Indian or Bangladeshi - Asian - Chinese == 0                                           < 0.001
+Black African, Black Caribbean or other black background - Asian - Chinese == 0                                            0.28439
+Mixed ethnicity - Asian - Chinese == 0                                                                                     0.06198
+White - Asian - Chinese == 0                                                                                               0.00125
+Black African, Black Caribbean or other black background - Asian or Asian British - Pakistani, Indian or Bangladeshi == 0  < 0.001
+Mixed ethnicity - Asian or Asian British - Pakistani, Indian or Bangladeshi == 0                                           0.04474
+White - Asian or Asian British - Pakistani, Indian or Bangladeshi == 0                                                     0.16057
+Mixed ethnicity - Black African, Black Caribbean or other black background == 0                                            0.67116
+White - Black African, Black Caribbean or other black background == 0                                                      < 0.001
+White - Mixed ethnicity == 0                                                                                               0.29258
+                                                                                                                             
+Asian or Asian British - Pakistani, Indian or Bangladeshi - Asian - Chinese == 0                                          ***
+Black African, Black Caribbean or other black background - Asian - Chinese == 0                                              
+Mixed ethnicity - Asian - Chinese == 0                                                                                    .  
+White - Asian - Chinese == 0                                                                                              ** 
+Black African, Black Caribbean or other black background - Asian or Asian British - Pakistani, Indian or Bangladeshi == 0 ***
+Mixed ethnicity - Asian or Asian British - Pakistani, Indian or Bangladeshi == 0                                          *  
+White - Asian or Asian British - Pakistani, Indian or Bangladeshi == 0                                                       
+Mixed ethnicity - Black African, Black Caribbean or other black background == 0                                              
+White - Black African, Black Caribbean or other black background == 0                                                     ***
+White - Mixed ethnicity == 0                                                                                                 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+(Adjusted p values reported -- single-step method)
+

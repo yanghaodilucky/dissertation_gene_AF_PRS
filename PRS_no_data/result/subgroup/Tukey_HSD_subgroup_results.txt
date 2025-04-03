@@ -1,0 +1,29 @@
+
+	 Simultaneous Tests for General Linear Hypotheses
+
+Multiple Comparisons of Means: Tukey Contrasts
+
+
+Fit: aov(formula = prs_multi_ancestry ~ rough_NSgroup, data = dta)
+
+Linear Hypotheses:
+                                     Estimate Std. Error t value Pr(>|t|)    
+Partial SR - CFD == 0                -0.25861    0.29232  -0.885    0.940    
+SRNS genetic - CFD == 0              -0.20185    0.10470  -1.928    0.346    
+SRNS non-genetic - CFD == 0          -0.10291    0.10669  -0.965    0.915    
+SSNS - CFD == 0                       0.22216    0.10174   2.184    0.215    
+SSNS genetic - CFD == 0               0.17412    0.33457   0.520    0.994    
+SRNS genetic - Partial SR == 0        0.05676    0.29055   0.195    1.000    
+SRNS non-genetic - Partial SR == 0    0.15570    0.29128   0.535    0.993    
+SSNS - Partial SR == 0                0.48077    0.28950   1.661    0.516    
+SSNS genetic - Partial SR == 0        0.43273    0.43058   1.005    0.901    
+SRNS non-genetic - SRNS genetic == 0  0.09894    0.10175   0.972    0.913    
+SSNS - SRNS genetic == 0              0.42400    0.09654   4.392   <0.001 ***
+SSNS genetic - SRNS genetic == 0      0.37597    0.33303   1.129    0.847    
+SSNS - SRNS non-genetic == 0          0.32507    0.09869   3.294    0.011 *  
+SSNS genetic - SRNS non-genetic == 0  0.27704    0.33366   0.830    0.954    
+SSNS genetic - SSNS == 0             -0.04803    0.33211  -0.145    1.000    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+(Adjusted p values reported -- single-step method)
+

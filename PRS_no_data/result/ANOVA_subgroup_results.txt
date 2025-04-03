@@ -1,0 +1,5 @@
+               Df Sum Sq Mean Sq F value   Pr(>F)    
+rough_NSgroup   5   7.15  1.4303     4.5 0.000604 ***
+Residuals     250  79.46  0.3178                     
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
